@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="Registration"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="108dp"
+
+            android:drawableLeft="@drawable/ic_action_email"
+            android:ems="10"
+            android:hint="               Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="172dp"
+            android:drawableLeft="@drawable/ic_action_loc"
+            android:ems="10"
+            android:hint="            Password"
+            android:inputType="numberPassword" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:ems="10"
+            android:hint="            Full Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="179dp"
+            android:drawableLeft="@drawable/ic_action_call"
+            android:ems="10"
+            android:hint="            Phone No"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="116dp"
+            android:background="@drawable/text_corner"
+            android:text="Register"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/already_registred"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="47dp"
+            android:background="@drawable/hide_button"
+            android:text="Already registred! Login Me."
+            android:textAllCaps="false"
+
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
